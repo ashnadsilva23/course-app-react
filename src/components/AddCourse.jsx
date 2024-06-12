@@ -36,6 +36,7 @@ const AddCourse = () => {
             <Navbar />
             <h1 align="center"><u>Add Course</u></h1><br></br>
             <div className="container">
+          
 
                 <div className="row">
                     <div className="col">
@@ -51,7 +52,7 @@ const AddCourse = () => {
                                 </div>
                                 <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                     <label htmlFor="" className="form-label">Date</label>
-                                    <input type="text" className="form-control" name='date' value={data.date} onChange={inputHandler} />
+                                    <input type="date" className="form-control" name='date' value={data.date} onChange={inputHandler} />
                                 </div>
                                 <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                     <label htmlFor="" className="form-label">Duration</label>
